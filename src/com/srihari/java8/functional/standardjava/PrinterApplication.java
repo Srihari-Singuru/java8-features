@@ -1,6 +1,6 @@
 package com.srihari.java8.functional.standardjava;
 
-public class LambdaApplication {
+public class PrinterApplication {
     public static void main(String[] args) {
         greet(new ConsolePrinter());
     }
