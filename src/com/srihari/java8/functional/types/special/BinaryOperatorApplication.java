@@ -18,8 +18,10 @@ public class BinaryOperatorApplication {
         System.out.println(result);
 
         // We can chain/combine multiple functions
-        Function<Integer, Integer> square = a -> a*a;
-        result = add.andThen(square).apply(1, 2);
+        Function<Integer, Integer> square = a -> a*a;   // We can use UnaryOperator here; T apply(T t);
+        result = add
+                    .andThen(square)
+                    .apply(1, 2);
         System.out.println(result);
     }
 }
