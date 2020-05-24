@@ -1,4 +1,4 @@
-package com.srihari.java8.streams.reduce;
+package com.srihari.java8.streams.reduce.streamreduce;
 
 public class Movie {
     private final String name;

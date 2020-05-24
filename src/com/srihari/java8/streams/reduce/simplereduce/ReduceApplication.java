@@ -1,4 +1,4 @@
-package com.srihari.java8.streams.reduce;
+package com.srihari.java8.streams.reduce.simplereduce;
 
 import java.util.Comparator;
 import java.util.List;
