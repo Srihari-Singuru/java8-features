@@ -1,4 +1,4 @@
-package com.srihari.java8.streams;
+package com.srihari.java8.streams.imperativevsfunctional;
 
 public class Movie {
     private final String name;
